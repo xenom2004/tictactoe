@@ -1,0 +1,60 @@
+header{
+    font-size: large;
+    color: blueviolet;
+    background-color: aquamarine;
+    border-radius:5;
+    box-shadow: 2px 2px;
+    text-align: center;
+
+}
+.elements{
+    display:flex
+}
+body{
+    
+}
+.grid{
+    position: relative;
+    left:550px
+    
+   
+}
+.grid button{
+    font-size: larger;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    
+}
+p{
+    text-align: center;
+    color: blueviolet;
+    font-size: 50;
+    font-weight: bold;
+
+}
+.grid button:hover{
+    background-color: rgb(186, 186, 176);
+}
+button[id="10"]{
+    font-size: 30;
+    border-radius: 10px;
+    border: 3px solid red;
+    position:relative;
+    left:600px;
+    box-shadow: 2px 2px;
+
+}
+button[id="10"]:hover{
+    background-color: rgb(207, 226, 244);
+}
+button:active {
+    
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+  }
